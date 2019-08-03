@@ -42,3 +42,8 @@ python ELO.py
 
 ## To do
 + Resume the label results
+
+## Contact
+If you find this respository useful, or you want to do some cooperation. 
+Feel free to contact me: shamangary@hotmail.com
+
