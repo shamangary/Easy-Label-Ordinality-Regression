@@ -81,9 +81,7 @@ class KeyEvent(object):
         if save_folder_selected != '':
             np.savez(save_folder_selected+'/'+save_name+'_manual_label',decision=self.pre_decision, A_rand_idx=A_rand_idx, B_rand_idx=B_rand_idx, A_idx=A_idx, B_idx=B_idx, rand_idx=rand_idx, img_list=img_list)
             print('Label saved. End.')
-        window.destroy()
-        sys.exit()
-
+        
 
     def go_back(self):
         if self.idx_for_pair > 0:
