@@ -1,9 +1,10 @@
 # Easy-Label-Ordinality-Regression
 A simple GUI python script for labeling relative ordinality between images
 
-## Why labeling expert regression problem is hard?
+## Why labeling expert/subjective regression problem is hard?
 1) Only a domain expert is able to give direct score. (e.g. Which one has better muscle? Can you score them?)
-2) One cannot give a globally consistent score between [0,100] for large-scale images.
+2) Subjective label depends on a single person. (e.g. Which one do I prefer?)
+3) One cannot give a globally consistent score between [0,100] for large-scale images.
 
 ## Why ordinality can help?
 1) Average people can tell which one is better even without the absolute score.
