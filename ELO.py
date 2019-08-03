@@ -76,7 +76,7 @@ class KeyEvent(object):
 
 
     def save_decision(self):
-        save_file_name = filedialog.asksaveasfilename()
+        save_file_name = filedialog.asksaveasfilename(initialdir = "./")
         
         if save_file_name != '':
             np.savez(save_file_name,decision=self.pre_decision, A_rand_idx=A_rand_idx, B_rand_idx=B_rand_idx, A_idx=A_idx, B_idx=B_idx, rand_idx=rand_idx, img_list=img_list)
@@ -161,7 +161,7 @@ if __name__ == '__main__':
     window.geometry('1000x800')
 
     folder_selected = None
-    folder_selected = filedialog.askdirectory()
+    folder_selected = filedialog.askdirectory(initialdir = "./")
     if not folder_selected:
         sys.exit()
 
