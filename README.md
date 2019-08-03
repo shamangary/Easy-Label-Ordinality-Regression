@@ -45,5 +45,6 @@ python ELO.py
 
 ## Contact
 If you find this respository useful, or you want to do some cooperation. 
-Feel free to contact me: shamangary@hotmail.com
+
+Feel free to contact me: Tsun-Yi Yang, shamangary@hotmail.com
 
