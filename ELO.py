@@ -151,7 +151,7 @@ class KeyEvent(object):
         if self.idx_for_pair == self.len_pair:
             var_command.set('Empty list. Please close the window (q), save(s), or go backward.(b)')
         else:
-            var_command.set('Label command: Left, I cannot tell(Down), Right. Bad Pair(Up).')
+            var_command.set('Label command: Left is better(←). I cannot tell(↓). Right is better(→). Bad Pair(↑).')
             var_sys.set('System command: Quit(q), Back(b), Save(s).')
 
 if __name__ == '__main__':
