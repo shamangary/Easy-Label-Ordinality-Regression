@@ -33,5 +33,12 @@ python ELO.py
 + b: Back to previous pair.
 + s: Save the current results.
 
+## Dependencies
++ python
++ tkinter
++ numpy
++ PIL
++ glob
+
 ## To do
 + Resume the label results
