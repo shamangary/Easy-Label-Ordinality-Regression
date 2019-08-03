@@ -20,6 +20,14 @@ python ELO.py
 # 2. Labeling!!!
 # 3. Save the label into npz file.
 ```
+## Labeling command
 
++ Left (&#x2190;): Left is better. Save as number 0
++ Down (&#x2193;): I cannot tell which one is better. Save as number 1
++ Right (&#x2192;): Right is better. Save as number 2
++ Up (&#x2191;): Bad Pair. Save as number -1
 
-
+## System command
++ q: Quit the program.
++ b: Back to previous pair.
++ s: Save the current results.
