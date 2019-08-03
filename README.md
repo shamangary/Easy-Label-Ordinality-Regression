@@ -1,4 +1,4 @@
-# Easy-Label-Ordinality-Regression
+# Easy-Label-Ordinality-Regression (ELO-Regression)
 A simple GUI python script for labeling relative ordinality between images
 
 ## Why labeling expert/subjective regression problem is hard?
