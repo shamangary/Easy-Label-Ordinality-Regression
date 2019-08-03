@@ -1,5 +1,5 @@
 # Easy-Label-Ordinality-Regression
-A simple python script for labeling relative ordinality between images
+A simple GUI python script for labeling relative ordinality between images
 
 ## Why labeling expert regression problem is hard?
 1) Only a domain expert is able to give direct score. (e.g. Which one has better muscle? Can you score them?)
