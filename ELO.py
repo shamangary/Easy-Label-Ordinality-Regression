@@ -79,7 +79,7 @@ class KeyEvent(object):
         save_file_name = filedialog.asksaveasfilename(initialdir = "./")
         
         if save_file_name != '':
-            np.savez(save_file_name,decision=self.pre_decision, A_rand_idx=A_rand_idx, B_rand_idx=B_rand_idx, A_idx=A_idx, B_idx=B_idx, rand_idx=rand_idx, img_list=img_list)
+            np.savez(save_file_name,decision=self.pre_decision, left_rand_idx=A_rand_idx, right_rand_idx=B_rand_idx, left_idx=A_idx, right_idx=B_idx, rand_idx=rand_idx, img_list=img_list)
             print('Label saved.')
         # window.destroy()
         # sys.exit()
